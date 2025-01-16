@@ -5,7 +5,7 @@ import NavInferior from "../../components/NavInferior/Navinferior";
 const Produto = ()  => {
   return <div className="overflow-x-hidden">
 
-     <Navbar />
+     <Navbar /> 
      <NavInferior />
 
  </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import LogoMobile from "../../../src/assets/LogoMobile.svg";
 // import { NavbarMenu } from "../../mockData/Data";
-import { LuShoppingCart } from "react-icons/lu";
-import { RxHamburgerMenu } from "react-icons/rx";
+import  Shoppingcart  from "../../assets/Shoppingcart.svg";
+import  menu  from "../../assets/menu.svg";
 
 const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
           {/* icon section - sidebar */}
           <div>
           <button className="text-2xl gap-2 mx-5  hover:bg-primary  hover:text-white rounded-full p-2 duration-200">
-              <RxHamburgerMenu className=" " />
+              <img src={menu} alt="menu" />
             </button>
           </div>
 
@@ -40,7 +40,7 @@ const Navbar = () => {
           <div>
 
             <button className="text-2xl gap-2 mx-5  hover:bg-primary  hover:text-white rounded-full p-2 duration-200">
-              <LuShoppingCart className=" " />
+             <img src={Shoppingcart} alt="" />
             </button>
 
           </div>
